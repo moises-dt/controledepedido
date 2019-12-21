@@ -1,0 +1,12 @@
+<?xml version="1.0"?><!-- iReport connections -->
+<iReportConnectionSet>
+	<iReportConnection name="conexao" connectionClass="com.jaspersoft.ireport.designer.connection.JDBCConnection">
+		<connectionParameter name="Username"><![CDATA[postgres]]></connectionParameter>
+		<connectionParameter name="SavePassword"><![CDATA[true]]></connectionParameter>
+		<connectionParameter name="Database"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="ServerAddress"><![CDATA[]]></connectionParameter>
+		<connectionParameter name="JDBCDriver"><![CDATA[org.postgresql.Driver]]></connectionParameter>
+		<connectionParameter name="Url"><![CDATA[jdbc:postgresql://localhost:5432/controlepedido]]></connectionParameter>
+		<connectionParameter name="Password"><![CDATA[123456]]></connectionParameter>
+	</iReportConnection>
+</iReportConnectionSet>
